@@ -1,0 +1,11 @@
+name: HomeLimit
+author: drtshock
+version: ${project.version}
+depend: [Vault]
+main: com.puzlinc.homelimit.HomeLimit
+commands:
+  homelimit:
+    permission: homelimit.op
+permissions:
+  homelimit.op:
+    default: op

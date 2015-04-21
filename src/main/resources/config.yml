@@ -1,0 +1,20 @@
+# Sethome Limit by drtshock
+# Made with love <3
+
+# USAGE
+# To use this, do /homelimit <name> <#> - where # can be any positive or negative integer.
+# This can be run from console, ops, or with the permission homelimit.op
+
+# TARGET PLAYER NEEDS TO BE ONLINE
+
+# Make sure your permissions are: essentials.sethome.multiple.# where number is a digit
+# such as essentials.sethome.multiple.15
+
+# Max sethomes you'll allow players to have.
+# Keep this at the max you use so we don't have to
+# do as many iterations each time.
+max: 20
+
+# Message sent to the player when their limit is set.
+# %d is the new limit.
+set: "&aYour new home limit is &6%d"
